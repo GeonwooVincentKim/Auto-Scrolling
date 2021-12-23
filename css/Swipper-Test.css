@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
+.inner-wrap {width: 100%; height: 700px;}
 .swiper-container {
     /* width: 100%;
     height: auto; */
@@ -19,10 +20,10 @@ body {
 
 }
 .swiper-container .swiper-slide {
-    height: 300px;
-    line-height: 300px;
+    height: 100px;
+    line-height: 100px;
 }
 .swiper-container .swiper-slide:nth-child(2n) {
-    height: 500px;
-    line-height: 500px;
+    height: 300px;
+    line-height: 300px;
 }
